@@ -1,6 +1,7 @@
 import torch
 
 #meta data / parameters
+
 n_epochs = 3
 batch_size_train = 64
 batch_size_test = 1000
