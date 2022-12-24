@@ -5,7 +5,7 @@ import torchvision
 import torch.optim as optim
 import torch.nn.functional as F
 
-import dir
+from paths import *
 from net import CNN
 from params import *
 from display import predictions
@@ -58,8 +58,8 @@ def train(epoch):
         (batch_idx*64) + ((epoch-1)*len(train_loader.dataset)))
 
       #save model   
-      torch.save(network.state_dict(), dir.model_path)
-      torch.save(optimizer.state_dict(), dir.optim_path)
+      torch.save(network.state_dict(), model_path)
+      torch.save(optimizer.state_dict(), optim_path)
     
 def test():
   network.eval()
