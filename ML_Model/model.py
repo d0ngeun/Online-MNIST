@@ -81,7 +81,7 @@ def test():
 for epoch in range(1, n_epochs + 1):
   train(epoch)
   test()
-
+  
 with torch.no_grad():
   output = network(example_data)
 predictions(example_data, output)

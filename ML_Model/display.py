@@ -1,5 +1,9 @@
 import matplotlib.pyplot as plt
 
+#later:
+#   change this so it returns a prediction based on an input param
+#   dont need to do plt printing
+
 def predictions(example_data, output):
     index = 5
     input = example_data[index][0]
