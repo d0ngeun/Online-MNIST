@@ -25,15 +25,27 @@ ML model data/stats. Param, optim, network breakdown.
 ![App Screenshot](MNIST_Results.png?raw=true)
 
 
-## Installation
+## Usage
 
-Install my-project with npm
+Clone the repo
 
 ```bash
-  npm install my-project
-  cd my-project
+    git clone https://github.com/d0ngeun/Online-MNIST.git
+    cd Online-MNIST
 ```
-    
+
+Train the model
+```bash
+    cd ML_Model
+    python3 model.py
+```
+
+Launch the Flask app
+```bash
+    cd..
+    python -m flask --app server run
+```    
+
 ## Acknowledgements
 
  - https://nextjournal.com/gkoehler/pytorch-mnist
