@@ -29,7 +29,7 @@ What did you learn while building this project? What challenges did you face and
 
 ML model data/stats. Param, optim, network breakdown.
 
-![App Screenshot](readme_media/MNIST_Results.png?raw=true)
+![App Screenshot](https://user-images.githubusercontent.com/119146767/209481036-9490413a-34d7-43b5-a87e-4f6f24a6a8ec.png)
 
 
 ## Usage
