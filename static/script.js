@@ -1,3 +1,4 @@
+
 var canvas = document.getElementById("paint");
 var ctx = canvas.getContext("2d");
 var width = canvas.width;
@@ -127,4 +128,18 @@ function save(){
     }).done(function() {
     console.log('sent');
     });
+
+    getPred()
 } 
+
+function getPred() {
+    url = "http://127.0.0.1:5000/api/pred";
+ 
+    axios.get(url)
+    .then(function(response) {
+        document.getElementById('pred').innerHTML = response.data.pred;
+    })
+    .catch(function(error) {
+        console.log(error);
+    });
+}
