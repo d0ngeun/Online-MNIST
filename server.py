@@ -12,8 +12,6 @@ import torch
 import torchvision
 from torchvision import transforms
 from ML_Model.net import CNN
-from matplotlib import pyplot as plt
-import cv2
 import numpy as np
 
 app = Flask(__name__)
