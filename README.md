@@ -20,6 +20,10 @@ Insert gif or link to demo
 
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
+ML model data/stats. Param, optim, network breakdown.
+
+![App Screenshot](MNIST_Result.png)
+
 
 ## Installation
 
