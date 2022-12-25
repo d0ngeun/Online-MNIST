@@ -1,6 +1,7 @@
 {% include "base.html" %}
 {% block content %}
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <body onload="pencil()">
         <p><table>
             <tr>
@@ -34,6 +35,7 @@
                 <br>
                 <br>
                 <button id="predictButton" type="button" onclick="save()">Predict</button>
+                <h3>Prediction: {{value}}</h3>
                 </fieldset>
             </td>
             <td>
