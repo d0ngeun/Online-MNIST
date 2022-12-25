@@ -1,7 +1,10 @@
 
 # Online MNIST
 
-An MNIST model deployed online
+An MNIST model deployed online as a full stack application.
+Potential Roadmap:
+    - Deploy as service using Fly.io or github pages
+    - Further train my model with more epochs and datasets
 
 
 ## Tech Stack
