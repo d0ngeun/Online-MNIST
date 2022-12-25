@@ -1,10 +1,10 @@
 
 # Online MNIST
 
-An MNIST model deployed online as a full stack application.
-Potential Roadmap:
-    - Deploy as service using Fly.io or github pages
-    - Further train my model with more epochs and datasets
+An MNIST model deployed online as a full stack application.  
+Potential Roadmap:  
+    - Deploy as service using Fly.io or github pages  
+    - Further train my model with more epochs and datasets  
 
 
 ## Tech Stack
@@ -14,7 +14,7 @@ Potential Roadmap:
 **Backend:** Python: Flask, Pytorch
 
 **Libraries/Dependencies:**
-    Ajax, Axios
+    Ajax, Axios, 
     Matplotlib, PIL
 
 
@@ -24,15 +24,16 @@ Insert gif or link to demo
 
 ## Model Details
 
-The model is small and simple. Not sure if it's the best way to have built this classifier, I'm going to have to research 
-further into how I can improve the accuracy later. 
-In brief the model used:
-    -A Convolutional Neural Network (CNN) 
-    -3 epochs with a learning rate of 0.01
-    -Train batch size of 64, Test batch size of 1000
+The model is small and simple.  
+In brief the model used:  
+    -A Convolutional Neural Network (CNN)  
+    -3 epochs with a learning rate of 0.01  
+    -Train batch size of 64, Test batch size of 1000  
 
-On the MNIST dataset, the model performed quite well, with a 97% accuracy:
+On the MNIST dataset, the model performed quite well, with a 97% accuracy:  
+
 ![App Screenshot](https://user-images.githubusercontent.com/119146767/209481036-9490413a-34d7-43b5-a87e-4f6f24a6a8ec.png)
+  
 However, the model struggled on the data sent through the web app. Potential issues could be: lack of training, issues with converting HTML5 Canvas images to testing images, or more.
 
 ## Usage
