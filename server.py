@@ -1,11 +1,8 @@
 import os
-import sys
-import json
-from flask import Flask, render_template, request, redirect, url_for, jsonify
-from PIL import Image, ImageFilter
+from flask import Flask, render_template, request, jsonify
+from PIL import Image
 from io import BytesIO
 import base64
-import json
 import re
 
 import torch
@@ -47,7 +44,7 @@ def api_pred():
     data = {
         'pred': pred_num,
     }
-    
+
     return jsonify(data)
 
 @app.route('/search', methods=['GET', 'POST'])

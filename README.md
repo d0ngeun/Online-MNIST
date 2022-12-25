@@ -10,6 +10,10 @@ An MNIST model deployed online
 
 **Backend:** Python: Flask, Pytorch
 
+**Libraries/Dependencies:**
+    Ajax, Axios
+    Matplotlib, PIL
+
 
 ## Demo
 
