@@ -117,10 +117,14 @@ function eraser(){
 }  
 
 function save(){
-    var filename = document.getElementById("fname").value;
-    var data = JSON.stringify(canvas_data);
-    var image = canvas.toDataURL();
-    
-    $.post("/", { save_fname: filename, save_cdata: data, save_image: image });
-    alert(filename + " saved");
+    var dataURL = canvas.toDataURL();
+    $.ajax({
+    type: "POST",
+    url: "http://127.0.0.1:5000/hook",
+    data:{
+        imageBase64: dataURL
+    }
+    }).done(function() {
+    console.log('sent');
+    });
 } 
