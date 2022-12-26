@@ -20,7 +20,7 @@ Potential Roadmap:
 
 ## Demo
 
-![](demo.mp4)
+![](demo.gif)
 
 ## Model Details
 
