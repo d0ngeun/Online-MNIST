@@ -20,7 +20,7 @@ Potential Roadmap:
 
 ## Demo
 
-Insert gif or link to demo
+![](https://github.com/d0ngeun/Online-MNIST/issues/2)
 
 ## Model Details
 
@@ -34,7 +34,7 @@ On the MNIST dataset, the model performed quite well, with a 97% accuracy:
 
 ![App Screenshot](https://user-images.githubusercontent.com/119146767/209481036-9490413a-34d7-43b5-a87e-4f6f24a6a8ec.png)
   
-However, the model struggled on the data sent through the web app. Potential issues could be: lack of training, issues with converting HTML5 Canvas images to testing images, or more.
+However, the model struggled on the data sent through the web app. Potential issues could be: lack of training, issues with converting HTML5 Canvas images to testing images, or more. 
 
 ## Usage
 
