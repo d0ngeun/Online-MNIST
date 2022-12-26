@@ -47,10 +47,6 @@ def api_pred():
 
     return jsonify(data)
 
-@app.route('/search', methods=['GET', 'POST'])
-def search():
-    if request.method == 'GET':
-        return render_template("search.html")
     
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
