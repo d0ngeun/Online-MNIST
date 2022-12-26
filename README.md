@@ -20,7 +20,7 @@ Potential Roadmap:
 
 ## Demo
 
-![](https://github.com/d0ngeun/Online-MNIST/issues/2)
+![](demo.mp4)
 
 ## Model Details
 
